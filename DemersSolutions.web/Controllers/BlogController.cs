@@ -22,7 +22,7 @@ namespace DemersSolutions.web.Controllers {
         public ActionResult BlogSingle() {
             return View();
         }
-
+        //test
 
     }
 }
