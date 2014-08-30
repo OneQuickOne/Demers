@@ -1,35 +1,43 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace DemersSolutions.web
-{
-    public class BundleConfig
-    {
+namespace _1Quick1.Web {
+    public class BundleConfig {
         // For more information on bundling, visit http://go.microsoft.com/fwlink/?LinkId=301862
-        public static void RegisterBundles(BundleCollection bundles)
-        {
+        public static void RegisterBundles(BundleCollection bundles) {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));
 
-            // Use the development version of Modernizr to develop with and learn from. Then, when you're
-            // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
-
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                "~/Scripts/Openmind/jquery.cookie.js",
+                "~/Scripts/Openmind/bootstrap.min.js",
+                "~/Scripts/Openmind/jquery.mixitup.min.js",
+                "~/Scripts/Openmind/lightbox-2.6.min.js",
+                "~/Scripts/Openmind/holder.js",
+                "~/Scripts/Openmind/app.js",
+                //"~/Scripts/Openmind/styleswitcher.js",
+                "~/Scripts/Openmind/syntax/shCore.js",
+                "~/Scripts/Openmind/syntax/shBrushXml.js",
+                "~/Scripts/Openmind/syntax/shBrushJScript.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                "~/Content/Themes/Openmind/css/bootstrap.min.css",
+                "~/Content/Themes/Openmind/css/font-awesome.min.css",
+                "~/Content/Themes/Openmind/css/animate.min.css",
+                "~/Content/Themes/Openmind/css/lightbox.css",
+                "~/Content/Themes/Openmind/css/syntax/shCore.css",
+                "~/Content/Themes/Openmind/css/syntax/shThemeDefault.css"
+                //"~/Content/Themes/Openmind/css/style.css",
+                //"~/Content/Themes/Openmind/css/color-default.css",
+                //"~/Content/Themes/Openmind/css/width-full.css"
+                ));
 
             // Set EnableOptimizations to false for debugging. For more information,
             // visit http://go.microsoft.com/fwlink/?LinkId=301862
-            BundleTable.EnableOptimizations = true;
+            // BundleTable.EnableOptimizations = true;
         }
     }
 }

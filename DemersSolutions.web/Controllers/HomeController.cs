@@ -4,27 +4,15 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace DemersSolutions.web.Controllers
-{
-    public class HomeController : Controller
-    {
-        public ActionResult Index()
-        {
-            return View();
+namespace _1Quick1.Web.Controllers {
+    public class HomeController : Controller {
+        public ActionResult Index() {
+            return View("Index");
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+        public ActionResult Index2() {
+            return View("Index2");
         }
 
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

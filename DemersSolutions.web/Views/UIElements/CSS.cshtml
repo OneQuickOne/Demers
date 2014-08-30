@@ -1,0 +1,679 @@
+﻿
+@{
+    ViewBag.Title = "CSS";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header class="wrap-title">
+    <div class="container">
+        <h1 class="page-title">CSS Elements</h1>
+
+        <ol class="breadcrumb hidden-xs">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">UI Elements</a></li>
+            <li class="active">CSS</li>
+        </ol>
+    </div>
+</header>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <nav id="sidebar-menu">
+                <ul class="nav nav-pills nav-stacked affix menu animated fadeIn" id="menu" data-spy="affix" data-offset-top="200" data-offset-bottom="450">
+                    <li><a href="#buttons" class="smooth">Buttons</a></li>
+                    <li><a href="#headers" class="smooth">Headers</a></li>
+                    <li><a href="#lists" class="smooth">Lists</a></li>
+                    <li><a href="#blockquotes" class="smooth">Blockquotes</a></li>
+                    <li><a href="#badges" class="smooth">Badges</a></li>
+                    <li><a href="#labels" class="smooth">Labels</a></li>
+                    <li><a href="#tables" class="smooth">Tables</a></li>
+                    <li><a href="#syntax" class="smooth">Syntax Code</a></li>
+                </ul>
+            </nav>
+        </div> <!-- col -->
+
+        <div class="col-md-9">
+            <section id="components">
+                <article class="component-element" id="buttons">
+                    <h2 class="underline-title no-margin-top">Buttons</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-buttons" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-buttons" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-buttons" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-buttons">
+                            <h3>Default Size</h3>
+                            <button class="btn btn-default">Press me!</button>
+                            <button class="btn btn-primary">Press me!</button>
+                            <button class="btn btn-info">Press me!</button>
+                            <button class="btn btn-success">Press me!</button>
+                            <button class="btn btn-warning">Press me!</button>
+                            <button class="btn btn-danger">Press me!</button>
+                            <h3>Large Size</h3>
+                            <button class="btn btn-lg btn-default">Press me!</button>
+                            <button class="btn btn-lg btn-primary">Press me!</button>
+                            <button class="btn btn-lg btn-info">Press me!</button>
+                            <button class="btn btn-lg btn-success">Press me!</button>
+                            <button class="btn btn-lg btn-warning">Press me!</button>
+                            <button class="btn btn-lg btn-danger">Press me!</button>
+                            <h3>Small Size</h3>
+                            <button class="btn btn-sm btn-default">Press me!</button>
+                            <button class="btn btn-sm btn-primary">Press me!</button>
+                            <button class="btn btn-sm btn-info">Press me!</button>
+                            <button class="btn btn-sm btn-success">Press me!</button>
+                            <button class="btn btn-sm btn-warning">Press me!</button>
+                            <button class="btn btn-sm btn-danger">Press me!</button>
+                            <h3>Block Buttons</h3>
+                            <button class="btn btn-block btn-default">Press me!</button>
+                            <button class="btn btn-block btn-primary">Press me!</button>
+                            <button class="btn btn-block btn-info">Press me!</button>
+                            <button class="btn btn-block btn-success">Press me!</button>
+                            <button class="btn btn-block btn-warning">Press me!</button>
+                            <button class="btn btn-block btn-danger">Press me!</button>
+                        </div>
+                        <div class="tab-pane" id="html-buttons">
+
+                            <h3>Default Size</h3>
+                            <pre class="brush: xml">
+                            <button class="btn btn-default">Press me!</button>
+                            <button class="btn btn-primary">Press me!</button>
+                            <button class="btn btn-info">Press me!</button>
+                            <button class="btn btn-success">Press me!</button>
+                            <button class="btn btn-warning">Press me!</button>
+                            <button class="btn btn-danger">Press me!</button>
+                                            </pre>
+                            <h3>Large Size</h3>
+                            <pre class="brush: xml">
+                            <button class="btn btn-lg btn-default">Press me!</button>
+                            <button class="btn btn-lg btn-primary">Press me!</button>
+                            <button class="btn btn-lg btn-info">Press me!</button>
+                            <button class="btn btn-lg btn-success">Press me!</button>
+                            <button class="btn btn-lg btn-warning">Press me!</button>
+                            <button class="btn btn-lg btn-danger">Press me!</button>
+                                            </pre>
+                            <h3>Small Size</h3>
+                            <pre class="brush: xml">
+                            <button class="btn btn-sm btn-default">Press me!</button>
+                            <button class="btn btn-sm btn-primary">Press me!</button>
+                            <button class="btn btn-sm btn-info">Press me!</button>
+                            <button class="btn btn-sm btn-success">Press me!</button>
+                            <button class="btn btn-sm btn-warning">Press me!</button>
+                            <button class="btn btn-sm btn-danger">Press me!</button>
+                                            </pre>
+                            <h3>Block Buttons</h3>
+                            <pre class="brush: xml">
+                            <button class="btn btn-block btn-default">Press me!</button>
+                            <button class="btn btn-block btn-primary">Press me!</button>
+                            <button class="btn btn-block btn-info">Press me!</button>
+                            <button class="btn btn-block btn-success">Press me!</button>
+                            <button class="btn btn-block btn-warning">Press me!</button>
+                            <button class="btn btn-block btn-danger">Press me!</button>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-buttons">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="component-element" id="headers">
+                    <h2 class="underline-title no-margin-top">Headers</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-headers" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-headers" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-headers" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-headers">
+                            <h1>Header level One</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, accusamus.</p>
+                            <h2>Header level two</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, impedit.</p>
+                            <h3>Header level three</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, veniam.</p>
+                            <h4>Header level four</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, laboriosam?</p>
+                            <h5>Header level five</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, expedita.</p>
+                            <h6>Header level six</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eius!</p>
+
+                            <h1 class="section-title">Header level One</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, accusamus.</p>
+                            <h2 class="section-title">Header level two</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, impedit.</p>
+                            <h3 class="section-title">Header level three</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, veniam.</p>
+                            <h4 class="section-title">Header level four</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, laboriosam?</p>
+                            <h5 class="section-title">Header level five</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti, expedita.</p>
+                            <h6 class="section-title">Header level six</h6>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, eius!</p>
+                        </div>
+                        <div class="tab-pane" id="html-headers">
+                            <h3>Normal Headers</h3>
+                            <pre class="brush: xml">
+                            <h1>Header level One</h1>
+                            <h2>Header level two</h2>
+                            <h3>Header level three</h3>
+                            <h4>Header level four</h4>
+                            <h5>Header level five</h5>
+                            <h6>Header level six</h6>
+                                            </pre>
+                            <h3>Section Titles</h3>
+                            <pre class="brush: xml">
+                            <h1 class="section-title">Header level One</h1>
+                            <h2 class="section-title">Header level two</h2>
+                            <h3 class="section-title">Header level three</h3>
+                            <h4 class="section-title">Header level four</h4>
+                            <h5 class="section-title">Header level five</h5>
+                            <h6 class="section-title">Header level six</h6>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-headers">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="component-element" id="lists">
+                    <h2 class="underline-title no-margin-top">List</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-lists" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-lists" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-lists" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-lists">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>Unordered</h3>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet</li>
+                                        <li>Consectetur adipiscing elit</li>
+                                        <li>Integer molestie lorem at massa</li>
+                                        <li>Facilisis in pretium nisl aliquet</li>
+                                        <li>
+                                            Nulla volutpat aliquam velit
+                                            <ul>
+                                                <li>Phasellus iaculis neque</li>
+                                                <li>Purus sodales ultricies</li>
+                                                <li>Vestibulum laoreet porttitor sem</li>
+                                                <li>Ac tristique libero volutpat at</li>
+                                            </ul>
+                                        </li>
+                                        <li>Faucibus porta lacus fringilla vel</li>
+                                        <li>Aenean sit amet erat nunc</li>
+                                        <li>Eget porttitor lorem</li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3>Ordered</h3>
+                                    <ol>
+                                        <li>Lorem ipsum dolor sit amet</li>
+                                        <li>Consectetur adipiscing elit</li>
+                                        <li>Integer molestie lorem at massa</li>
+                                        <li>Facilisis in pretium nisl aliquet</li>
+                                        <li>
+                                            Nulla volutpat aliquam velit
+                                            <ul>
+                                                <li>Phasellus iaculis neque</li>
+                                                <li>Purus sodales ultricies</li>
+                                                <li>Vestibulum laoreet porttitor sem</li>
+                                                <li>Ac tristique libero volutpat at</li>
+                                            </ul>
+                                        </li>
+                                        <li>Faucibus porta lacus fringilla vel</li>
+                                        <li>Aenean sit amet erat nunc</li>
+                                        <li>Eget porttitor lorem</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-5">
+                                    <h3>Description</h3>
+                                    <dl>
+                                        <dt>Description lists</dt>
+                                        <dd>A description list is perfect for defining terms.</dd>
+                                        <dt>Euismod</dt>
+                                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                                        <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                                        <dt>Malesuada porta</dt>
+                                        <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                                    </dl>
+                                </div>
+                                <div class="col-md-7">
+                                    <h3>Horizontal Description</h3>
+                                    <dl class="dl-horizontal">
+                                        <dt>Description lists</dt>
+                                        <dd>A description list is perfect for defining terms.</dd>
+                                        <dt>Euismod</dt>
+                                        <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                                        <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                                        <dt>Malesuada porta</dt>
+                                        <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                                        <dt>Felis euismod semper</dt>
+                                        <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="html-lists">
+                            <h3>Unordered</h3>
+                            <pre class="brush: xml">
+                            <ul>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipiscing elit</li>
+                            <li>Integer molestie lorem at massa</li>
+                            <li>Facilisis in pretium nisl aliquet</li>
+                            <li>Nulla volutpat aliquam velit
+                            <ul>
+                            <li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                </ul>
+            </li>
+                            <li>Faucibus porta lacus fringilla vel</li>
+                            <li>Aenean sit amet erat nunc</li>
+                            <li>Eget porttitor lorem</li>
+        </ul>
+                                            </pre>
+                            <h3>Ordered</h3>
+                            <pre class="brush: xml">
+                            <ol>
+                            <li>Lorem ipsum dolor sit amet</li>
+                            <li>Consectetur adipiscing elit</li>
+                            <li>Integer molestie lorem at massa</li>
+                            <li>Facilisis in pretium nisl aliquet</li>
+                            <li>Nulla volutpat aliquam velit
+                            <ul>
+                            <li>Phasellus iaculis neque</li>
+                            <li>Purus sodales ultricies</li>
+                            <li>Vestibulum laoreet porttitor sem</li>
+                            <li>Ac tristique libero volutpat at</li>
+                </ul>
+            </li>
+                            <li>Faucibus porta lacus fringilla vel</li>
+                            <li>Aenean sit amet erat nunc</li>
+                            <li>Eget porttitor lorem</li>
+        </ol>
+                                            </pre>
+                            <h3>Description</h3>
+                            <pre class="brush: xml">
+                            <dl>
+                            <dt>Description lists</dt>
+                            <dd>A description list is perfect for defining terms.</dd>
+                            <dt>Euismod</dt>
+                            <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                            <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                            <dt>Malesuada porta</dt>
+                            <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+        </dl>
+                                            </pre>
+                            <h3>Horizontal Description</h3>
+                            <pre class="brush: xml">
+                            <dl class="dl-horizontal">
+                            <dt>Description lists</dt>
+                            <dd>A description list is perfect for defining terms.</dd>
+                            <dt>Euismod</dt>
+                            <dd>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+                            <dd>Donec id elit non mi porta gravida at eget metus.</dd>
+                            <dt>Malesuada porta</dt>
+                            <dd>Etiam porta sem malesuada magna mollis euismod.</dd>
+                            <dt>Felis euismod semper</dt>
+                            <dd>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+        </dl>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-lists">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="component-element" id="blockquotes">
+                    <h2 class="underline-title no-margin-top">Blockquotes</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-blockquotes" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-blockquotes" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-blockquotes" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-blockquotes">
+                            <blockquote>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+
+                            <blockquote class="pull-right">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+                            </blockquote>
+                        </div>
+                        <div class="tab-pane" id="html-blockquotes">
+                            <pre class="brush: xml">
+                            <blockquote>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+                            <blockquote class="pull-right">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+                            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+        </blockquote>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-blockquotes">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="component-element" id="badges">
+                    <h2 class="underline-title no-margin-top">Badges</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-badges" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-badges" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-badges" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-badges">
+                            <h3>Badge</h3>
+                            <a href="#">Inbox <span class="badge">42</span></a>
+                            <a href="#">Unread <span class="badge">12</span></a>
+                            <a href="#">Messages <span class="badge">42</span></a>
+
+                            <h3>Nav Badges</h3>
+                            <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+                                <li class="active">
+                                    <a href="#">
+                                        <span class="badge pull-right">42</span>
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="badge pull-right">359</span>
+                                        Profile
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="badge pull-right">3</span>
+                                        Messages
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="html-badges">
+                            <h3>Nav Badges</h3>
+                            <pre class="brush: xml">
+                            <a href="#">Inbox <span class="badge">42</span></a>
+                            <a href="#">Unread <span class="badge">12</span></a>
+                            <a href="#">Messages <span class="badge">42</span></a>
+                                            </pre>
+                            <h3>Nav Badges</h3>
+                            <pre class="brush: xml">
+                            <ul class="nav nav-pills nav-stacked" style="max-width: 260px;">
+                            <li class="active">
+                            <a href="#">
+                            <span class="badge pull-right">42</span>
+                    Home
+                </a>
+            </li>
+                            <li>
+                            <a href="#">
+                            <span class="badge pull-right">359</span>
+                    Profile
+                </a>
+            </li>
+                            <li>
+                            <a href="#">
+                            <span class="badge pull-right">3</span>
+                    Messages
+                </a>
+            </li>
+        </ul>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-badges">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="component-element" id="labels">
+                    <h2 class="underline-title no-margin-top">Labels</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-labels" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-labels" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-labels" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-labels">
+                            <span class="label label-default">Default</span>
+                            <span class="label label-primary">Primary</span>
+                            <span class="label label-success">Success</span>
+                            <span class="label label-info">Info</span>
+                            <span class="label label-warning">Warning</span>
+                            <span class="label label-danger">Danger</span>
+
+                            <h1>Example heading <span class="label label-default">New</span></h1>
+                            <h2>Example heading <span class="label label-primary">New</span></h2>
+                            <h3>Example heading <span class="label label-success">New</span></h3>
+                            <h4>Example heading <span class="label label-info">New</span></h4>
+                            <h5>Example heading <span class="label label-warning">New</span></h5>
+                            <h6>Example heading <span class="label label-danger">New</span></h6>
+                        </div>
+                        <div class="tab-pane" id="html-labels">
+                            <pre class="brush: xml">
+                            <span class="label label-default">Default</span>
+                            <span class="label label-primary">Primary</span>
+                            <span class="label label-success">Success</span>
+                            <span class="label label-info">Info</span>
+                            <span class="label label-warning">Warning</span>
+                            <span class="label label-danger">Danger</span>
+                            <h1>Example heading <span class="label label-default">New</span></h1>
+                            <h2>Example heading <span class="label label-primary">New</span></h2>
+                            <h3>Example heading <span class="label label-success">New</span></h3>
+                            <h4>Example heading <span class="label label-info">New</span></h4>
+                            <h5>Example heading <span class="label label-warning">New</span></h5>
+                            <h6>Example heading <span class="label label-danger">New</span></h6>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-labels">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="component-element" id="tables">
+                    <h2 class="underline-title no-margin-top">Tables</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-tables" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-tables" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-tables" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-tables">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <h3>Table Striped</h3>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Username</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Mark</td>
+                                        <td>Otto</td>
+                                        <td>mdo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Jacob</td>
+                                        <td>Thornton</td>
+                                        <td>fat</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Larry</td>
+                                        <td>the Bird</td>
+                                        <td>twitter</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="html-tables">
+                            <pre class="brush: xml">
+                            <table class="table">
+                            <thead>
+                            <tr>
+                            <th>...</th>
+                </tr>
+            </thead>
+                            <tbody>
+                            <tr></tr>
+            </tbody>
+        </table>
+                                            </pre>
+                            <h3>Table Striped</h3>
+                            <pre class="brush: xml">
+                            <table class="table table-striped">
+                            <thead>
+                            <tr>
+                            <th>...</th>
+                </tr>
+            </thead>
+                            <tbody>
+                            <tr></tr>
+            </tbody>
+        </table>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-tables">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+
+
+                <article class="component-element" id="syntax">
+                    <h2 class="underline-title no-margin-top">Syntax Code</h2>
+
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#example-syntax" data-toggle="tab">Example</a></li>
+                        <li><a href="#html-syntax" data-toggle="tab">HTML</a></li>
+                        <li><a href="#wordpress-syntax" data-toggle="tab">Wordpress</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="example-syntax">
+                            <pre class="brush: js">
+        // SyntaxHighlighter makes your code snippets beautiful without tiring your servers.
+        // http://alexgorbatchev.com
+        var setArray = function(elems) {
+            this.length = 0;
+            push.apply(this, elems);
+            return this;
+        }
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="html-syntax">
+                            <pre class="brush: xml">
+                            <pre class="brush: js">
+    
+            // Code...
+        </pre>
+                                            </pre>
+                        </div>
+                        <div class="tab-pane" id="wordpress-syntax">
+                            <h3>Coming soon</h3>
+                            <p>Next Version!</p>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </div> <!-- col -->
+    </div>
+</div> <!-- container -->
+
+
