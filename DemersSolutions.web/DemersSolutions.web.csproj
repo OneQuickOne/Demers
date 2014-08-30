@@ -181,6 +181,9 @@
   <ItemGroup>
     <Content Include="Content\Themes\Demers.css" />
     <Content Include="Content\Themes\Images\connect2go.png" />
+    <Content Include="Content\Themes\Images\Mobile.jpg" />
+    <Content Include="Content\Themes\Images\mobile_cell.jpg" />
+    <Content Include="Content\Themes\Images\monitoring.jpg" />
     <Content Include="Content\Themes\Images\phonefam.jpg" />
     <Content Include="Content\Themes\Openmind\css\animate.css" />
     <Content Include="Content\Themes\Openmind\css\animate.min.css" />
