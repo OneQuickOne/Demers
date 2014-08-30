@@ -10,10 +10,10 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using _1Quick1.Web.Models;
+using DemersSolutions.web.Models;
 using DemersSolutions.web;
 
-namespace _1Quick1.Web.Controllers
+namespace DemersSolutions.web.Controllers
 {
     [Authorize]
     public class AccountController : Controller

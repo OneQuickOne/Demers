@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace _1Quick1.Web.Controllers {
+namespace DemersSolutions.web.Controllers {
     public class BlogController : Controller {
         // GET: Blog
         public ActionResult BlogFull() {

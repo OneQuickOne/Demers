@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace _1Quick1.Web.Models
+namespace DemersSolutions.web.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

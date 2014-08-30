@@ -166,9 +166,13 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\ContactUsController.cs" />
+    <Compile Include="Controllers\GalleryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PagesController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
+    <Compile Include="Controllers\ServicesController.cs" />
+    <Compile Include="Controllers\TestimonialController.cs" />
     <Compile Include="Controllers\UIElementsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -179,6 +183,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Themes\Demers.css" />
     <Content Include="Content\Themes\Openmind\css\animate.css" />
     <Content Include="Content\Themes\Openmind\css\animate.min.css" />
     <Content Include="Content\Themes\Openmind\css\bootstrap-theme.css" />
@@ -450,6 +455,10 @@
     <Content Include="Views\UIElements\Components.cshtml" />
     <Content Include="Views\UIElements\CSS.cshtml" />
     <Content Include="Views\UIElements\Layout.cshtml" />
+    <Content Include="Views\ContactUs\Index.cshtml" />
+    <Content Include="Views\Gallery\Index.cshtml" />
+    <Content Include="Views\Services\Index.cshtml" />
+    <Content Include="Views\Testimonial\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

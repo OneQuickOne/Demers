@@ -7,10 +7,10 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
-using _1Quick1.Web.Models;
+using DemersSolutions.web.Models;
 using DemersSolutions.web;
 
-namespace _1Quick1.Web
+namespace DemersSolutions.web
 {
     public partial class Startup
     {

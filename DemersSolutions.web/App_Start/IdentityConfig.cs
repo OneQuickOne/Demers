@@ -3,8 +3,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
-//using DemersSolutions.web.Models;
-using _1Quick1.Web.Models;
+using DemersSolutions.web.Models;
 
 namespace DemersSolutions.web
 {
