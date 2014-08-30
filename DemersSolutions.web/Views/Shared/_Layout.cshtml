@@ -38,7 +38,7 @@
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="@Url.Action("Index", "Home")">Open <span>Mind</span></a>
+                    <a class="navbar-brand visible-xs" href="@Url.Action("Index", "Home")">Demers <span>Solutions</span></a>
 
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-mind-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -49,94 +49,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-mind-collapse">
                     <ul id="top-nav" class="nav navbar-nav">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="@Url.Action("Index", "Home")">Home Option 1</a></li>
-                                <li><a href="@Url.Action("Index2", "Home")">Home Option 2</a></li>
-                            </ul>
-                        </li> <!-- dropdown -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">UI Elements <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="@Url.Action("CSS", "UIElements")">CSS</a></li>
-                                <li><a href="@Url.Action("Components", "UIElements")">Components</a></li>
-                                <li><a href="@Url.Action("AdditionalComponents", "UIElements")">Additional Components</a></li>
-                                <li><a href="@Url.Action("Layout", "UIElements")">Layout</a></li>
-                            </ul>
-                        </li> <!-- dropdown -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="@Url.Action("AboutUs", "Pages")">About us</a></li>
-                                <li><a href="@Url.Action("OurTeam", "Pages")">Our Team</a></li>
-                                <li><a href="@Url.Action("Services", "Pages")">Services</a></li>
-                                <li><a href="@Url.Action("Pricing", "Pages")">Pricing</a></li>
-
-                                <li><a href="@Url.Action("FAQ", "Pages")">FAQ</a></li>
-                                <li><a href="@Url.Action("ComingSoon", "Pages")">Coming Soon</a></li>
-                                <li><a href="@Url.Action("ComingSoonV2", "Pages")">Coming Soon Option 2</a></li>
-                                <li><a href="@Url.Action("Timeline", "Pages")">Timeline</a></li>
-                                <li><a href="@Url.Action("Error404", "Pages")">Error 404</a></li>
-                                <li><a href="@Url.Action("Contact", "Pages")">Contact</a></li>
-                                <li><a href="@Url.Action("FullPage", "Pages")">Full Page</a></li>
-                                <li class="dropdown-header">User Pages</li>
-                                <li><a href="@Url.Action("Register", "Pages")">Register</a></li>
-                                <li><a href="@Url.Action("Login", "Account")">Login</a></li>
-                                <li><a href="@Url.Action("Profile", "Pages")">Profile</a></li>
-                            </ul>
-                        </li> <!-- dropdown -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="@Url.Action("BlogRightSidebar", "Blog")">Blog Right Sidebar</a></li>
-                                <li><a href="@Url.Action("BlogLeftSidebar", "Blog")">Blog Left Sidebar</a></li>
-                                <li><a href="@Url.Action("BlogFull", "Blog")">Blog Full</a></li>
-                                <li><a href="@Url.Action("BlogSingle", "Blog")">Blog Single</a></li>
-                                <li><a href="@Url.Action("BlogOther", "Blog")">Blog Other Option</a></li>
-                            </ul>
-                        </li> <!-- dropdown -->
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li> <!-- dropdown -->
+                        <li>@Html.ActionLink("Servcies", "Index", "Servcies")</li> <!-- dropdown -->
+                        <li>@Html.ActionLink("Gallery", "Index", "Gallery")</li> <!-- dropdown -->
+                        <li>@Html.ActionLink("Testimonials", "Index", "Testimonial")</li> <!-- dropdown -->
                         <li>@Html.ActionLink("Contact Us", "Index", "ContactUs")</li> <!-- dropdown -->
-                    </ul> <!-- nav nabvar-nav -->
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Login</a>
-                            <div class="dropdown-menu dropdown-login animated fadeInUp">
-                                <form role="form">
-                                    <h4 class="section-title">Login Form</h4>
-
-                                    <div class="form-group">
-                                        <div class="input-group login-input">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                            <input type="text" class="form-control" placeholder="Username">
-                                        </div>
-                                        <br>
-                                        <div class="input-group login-input">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                            <input type="password" class="form-control" placeholder="Password">
-                                        </div>
-                                        <div class="checkbox">
-                                            <label>
-                                                <input type="checkbox"> Remember me
-                                            </label>
-                                        </div>
-                                        <button type="submit" class="btn btn-primary pull-right">Login</button>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </form>
-                            </div>
-                        </li> <!-- dropdown -->
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">User name</a>
-                            <div class="dropdown-menu dropdown-profile animated fadeInUp">
-                                <img src="~/Content/Themes/Openmind/img/avatar.jpg" class="imageborder alignleft" alt="image">
-                                <h4>Administrator</h4>
-                                admin@openmind.com<br>
-                                <a href="@Url.Action("Profile", "Pages")">Profile</a> | <a href="#">Logout</a>
-
-                            </div>
-                        </li> <!-- dropdown -->
                     </ul> <!-- nav nabvar-nav -->
                 </div><!-- navbar-collapse -->
             </div> <!-- container -->
