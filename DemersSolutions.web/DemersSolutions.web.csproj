@@ -180,6 +180,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\Themes\Demers.css" />
+    <Content Include="Content\Themes\Images\connect2go.png" />
+    <Content Include="Content\Themes\Images\phonefam.jpg" />
     <Content Include="Content\Themes\Openmind\css\animate.css" />
     <Content Include="Content\Themes\Openmind\css\animate.min.css" />
     <Content Include="Content\Themes\Openmind\css\bootstrap-theme.css" />
