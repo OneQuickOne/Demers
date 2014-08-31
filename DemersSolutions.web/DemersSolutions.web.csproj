@@ -185,6 +185,7 @@
     <Content Include="Content\Themes\Images\mobile_cell.jpg" />
     <Content Include="Content\Themes\Images\monitoring.jpg" />
     <Content Include="Content\Themes\Images\phonefam.jpg" />
+    <Content Include="Content\Themes\Images\security.jpg" />
     <Content Include="Content\Themes\Openmind\css\animate.css" />
     <Content Include="Content\Themes\Openmind\css\animate.min.css" />
     <Content Include="Content\Themes\Openmind\css\bootstrap-theme.css" />
