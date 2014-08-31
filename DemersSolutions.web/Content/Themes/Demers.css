@@ -12,3 +12,7 @@
     font-family:Verdana, sans-serif;
     word-spacing:normal;
 }
+h1, .h1, h2, .h2
+{
+    margin-left:10px;
+}
