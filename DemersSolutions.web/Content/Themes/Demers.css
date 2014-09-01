@@ -12,3 +12,7 @@
     font-family:Verdana, sans-serif;
     word-spacing:normal;
 }
+.navbar-mind .navbar-brand
+{
+    font-size:2em;
+}
