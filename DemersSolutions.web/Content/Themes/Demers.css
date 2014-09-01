@@ -20,3 +20,20 @@
 {
     margin:auto;
 }
+.carousel-indicators li
+{
+    border: 1px solid #000;
+}
+.carousel-indicators .active
+{
+    background-color:#000;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next
+{
+    color:slategrey;
+}
+.carousel-indicators
+{
+    position:static;
+    margin:auto;
+}
