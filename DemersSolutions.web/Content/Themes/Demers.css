@@ -16,3 +16,7 @@
 {
     font-size:1.8em;
 }
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    margin:auto;
+}
