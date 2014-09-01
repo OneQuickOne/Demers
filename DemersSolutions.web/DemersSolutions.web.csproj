@@ -183,17 +183,17 @@
   <ItemGroup>
     <Content Include="App_Readme\Elmah.txt" />
     <Content Include="Content\Themes\Demers.css" />
+    <Content Include="Content\Themes\Images\48port_dist.JPG" />
     <Content Include="Content\Themes\Images\happyfam.jpg" />
     <Content Include="Content\Themes\Images\mobile_cell.jpg" />
     <Content Include="Content\Themes\Images\monitoring.jpg" />
     <Content Include="Content\Themes\Images\lots_wire.jpg" />
     <Content Include="Content\Themes\Images\security_dome_cam.jpg" />
     <Content Include="Content\Themes\Images\mobile_cam1.png" />
-    <Content Include="Content\Themes\Images\48port_dist.JPG" />
+    <Content Include="Content\Themes\Images\security_inwall.jpg" />
     <Content Include="Content\Themes\Images\seurity_dome_cam2.jpg" />
     <Content Include="Content\Themes\Images\before_panel.jpg" />
     <Content Include="Content\Themes\Images\clean_panel.jpg" />
-    <Content Include="Content\Themes\Images\security_inwall.jpg" />
     <Content Include="Content\Themes\Images\smart_panel.jpg" />
     <Content Include="Content\Themes\Images\ryans iphone 607.JPG" />
     <Content Include="Content\Themes\Images\smart_panel2.jpg" />
