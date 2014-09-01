@@ -187,6 +187,10 @@
     <Content Include="Content\Themes\Images\mobile_cell.jpg" />
     <Content Include="Content\Themes\Images\monitoring.jpg" />
     <Content Include="Content\Themes\Images\lots_wire.jpg" />
+    <Content Include="Content\Themes\Images\Optimized-before_panel.jpg" />
+    <Content Include="Content\Themes\Images\Optimized-clean_panel.jpg" />
+    <Content Include="Content\Themes\Images\Optimized-lots_wire.jpg" />
+    <Content Include="Content\Themes\Images\Optimized-mobile_cam1.png" />
     <Content Include="Content\Themes\Images\security_dome_cam.jpg" />
     <Content Include="Content\Themes\Images\mobile_cam1.png" />
     <Content Include="Content\Themes\Images\48port_dist.JPG" />
