@@ -37,3 +37,8 @@
     position:static;
     margin:auto;
 }
+.logo
+{
+    float:left;
+    padding-top:15px;
+}

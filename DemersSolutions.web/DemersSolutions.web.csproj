@@ -183,6 +183,7 @@
   <ItemGroup>
     <Content Include="Content\Themes\Demers.css" />
     <Content Include="Content\Themes\Images\happyfam.jpg" />
+    <Content Include="Content\Themes\Images\logo_2.png" />
     <Content Include="Content\Themes\Images\mobile_cell.jpg" />
     <Content Include="Content\Themes\Images\monitoring.jpg" />
     <Content Include="Content\Themes\Images\Optimized-48port_dist.JPG" />
