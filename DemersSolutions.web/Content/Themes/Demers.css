@@ -26,11 +26,11 @@
 }
 .carousel-indicators .active
 {
-    background-color:#000;
+    background-color:rgba(0, 112, 140, 1);
 }
 .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next
 {
-    color:slategrey;
+    color:rgba(0, 112, 140, 1);
 }
 .carousel-indicators
 {
