@@ -213,6 +213,7 @@
     <Content Include="Content\Themes\Images\Optimized-smart_panel2.jpg" />
     <Content Include="Content\Themes\Images\Optimized-smart_panel3.jpg" />
     <Content Include="Content\Themes\Images\Optimized_Mason_Home.jpg" />
+    <Content Include="Content\Themes\Images\truck_opt.jpg" />
     <Content Include="Content\Themes\Openmind\css\animate.css" />
     <Content Include="Content\Themes\Openmind\css\animate.min.css" />
     <Content Include="Content\Themes\Openmind\css\bootstrap-theme.css" />
